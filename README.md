@@ -73,7 +73,7 @@ All interactions can be done through Remix’s UI or directly in the deployed co
 
 ### Withdraw ETH
 
-- Call `withdraw(uint256 amount)`  
+- Call `withdraw()`  
   - Must not exceed `withdrawalThreshold`  
   - Must be less than or equal to your vault balance 
   - Emits: `WithdrawalSuccessful(address, amount)`
